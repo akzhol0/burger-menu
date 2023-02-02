@@ -1,4 +1,3 @@
-setTimeout(function(){location.reload();},30000);
 let counter = 0;
 
 document.querySelector('.menu-btn').addEventListener('click', function() {
