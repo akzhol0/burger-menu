@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1080px) {
+    .header-container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .assets {
+        display: none;
+    }
+    .menu-btn {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .header-container .brand {
+        font-size: 40px;
+    }
+    .menu-btn {
+        width: 40px;
+        height: 40px;
+    }
+    .line {
+        height: 5px;
+    }
+    #line1 {
+        transform: rotate(35deg);
+        margin-top: 20px;
+    }
+    #line3 {
+        margin-top: -20px;
+        transform: rotate(-35deg);
+    }
+    .menu-bar-container div {
+        font-size: 30px;
+    }
+    .menu-bar {
+        height: 300px;
+    }
+}
